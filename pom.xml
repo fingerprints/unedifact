@@ -15,6 +15,19 @@
     <version>1.6</version> <!-- base pom version - do not remove this comment -->
     <name>Milyn Smooks EDI Generation</name>
 
+    <distributionManagement>
+      <repository>
+        <id>fingerprints.maven</id>
+        <name>Fingerprints Maven Repo</name>
+        <url>http://maven.fingerprintsoft.co/repository/maven-releases/</url>
+      </repository>
+      <snapshotRepository>
+        <id>fingerprints.maven.snapshots</id>
+        <name>Fingerprints Maven Snapshot Repo</name>
+        <url>https://maven.fingerprintsoft.co/repository/maven-snapshots/</url>
+      </snapshotRepository>
+    </distributionManagement>
+
     <modules>
         <module>parent</module>
 

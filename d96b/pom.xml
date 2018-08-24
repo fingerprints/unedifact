@@ -14,6 +14,19 @@
     <packaging>pom</packaging>
     <name>Milyn Smooks D96B Agreggator</name>
 
+  <distributionManagement>
+    <repository>
+      <id>fingerprints.maven</id>
+      <name>Fingerprints Maven Repo</name>
+      <url>http://maven.fingerprintsoft.co/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>fingerprints.maven.snapshots</id>
+      <name>Fingerprints Maven Snapshot Repo</name>
+      <url>https://maven.fingerprintsoft.co/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
     <modules>
         <module>mapping</module>
         <module>binding</module>
